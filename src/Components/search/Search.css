@@ -1,0 +1,35 @@
+.search__input {
+    width: 300px;
+    padding: 10px 20px;
+    border-color: var(--color-primary);
+    border-radius: 0.5rem;
+    position: relative;
+    right: 130px;
+    transform: translateX(10%);
+  }
+  .search__input:focus {
+    outline: var(--color-primary);
+  }
+
+.icon3 {
+    font-size: 33px;
+    position: relative;
+    transform: translateY(25%);
+    right: 70px;
+    color: black;
+    cursor: pointer;
+}
+
+.icon3:hover {
+    color: var(--color-primary);
+}
+
+.icon4 {
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+    //transform: translateY(30%);
+    transform: translateX(185%);
+    right: 160px;
+    color: var(--color-primary);
+}

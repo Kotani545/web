@@ -1,0 +1,32 @@
+.ui-change-btn {
+    width: fit-content;
+    padding: 1rem 1rem;
+    display: block;
+    font-size: 1rem;
+    background-color: var(--color-white);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    left: 40px;
+    position: relative;
+    transform: translateY(-1%);
+  }
+
+  .ui-change-btn span {
+    background-color: var(--color-primary);
+    display: inline-block;
+    padding: 0.4rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    transform: translateY(-14%);
+  }
+
+.ui-change-btn .icon2 {
+    font-size: 30px;
+    transform: translateY(20%);
+}
+
+.ui-change-btn .icon2:hover {
+    color: var(--color-primary);
+}

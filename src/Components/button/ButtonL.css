@@ -1,0 +1,18 @@
+.ui-btn {
+  position: relative;
+  width: 0;
+  height: 0;
+  padding: 1rem 1rem;
+  display: block;
+  font-size: 33px;
+  background-color: var(--color-white);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  left: -175px;
+  transform: translateY(-50%);
+}
+
+.ui-btn:hover {
+  color: var(--color-primary);
+}

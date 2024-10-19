@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  header .header__logo {
+    width: 4rem;
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+    .pages {
+    font-size: 14px;
+    font-weight: 200;
+    transform: translateY(40%);
+    transform: translateX(65%);
+    margin: 0.5rem;
+    cursor: pointer;
+    }
+    .pages:hover {
+    text-decoration: underline;
+    }
+    .icon {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    }
